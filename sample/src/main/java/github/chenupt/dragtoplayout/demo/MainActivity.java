@@ -66,7 +66,6 @@ public class MainActivity extends ActionBarActivity {
         toolbar = (Toolbar) findViewById(R.id.tool_bar);
         viewPager = (ViewPager) findViewById(R.id.view_pager);
         dragLayout = (DragTopLayout) findViewById(R.id.drag_layout);
-        topImageView = (ImageView) findViewById(R.id.image_view);
         pagerSlidingTabStrip = (PagerSlidingTabStrip) findViewById(R.id.tabs);
 
         toolbar.setTitle("DragTopLayout");
